@@ -1,0 +1,21 @@
+{
+  "name": "southbridge",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/inquirer": "^9.0.9"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@agentclientprotocol/sdk": "^0.5.1",
+    "boxen": "^8.0.1",
+    "chalk": "^5.6.2",
+    "eventsource": "^4.1.0",
+    "inquirer": "^13.0.1",
+    "zod": "^4.1.12"
+  }
+}
